@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="page_inner">
+      <div class="page_inner-top">
+        <h2 class="notification_text">Notifications <span id="notificationBadge">3</span></h2>
+        <button id="markAllRead" type="button">Mark all as read</button>
+      </div>
+      <div class="page_inner-bottom">
+        <div class="bottom_wrapper">
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-mark-webber.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Mark Webber <span class="message_info">reacted to your recent post</span> <span
+                    class="message_about">My first tournament today!</span></p>
+                <p class="message_time">1m ago</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-angela-gray.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Angela Gray <span class="message_info">followed you</span> 
+                <p class="message_time">5m ago</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-jacob-thompson.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Jacob Thompson <span class="message_info">has joined your group</span> <span
+                  class="message_about club-color">Chess Club</span>
+                <p class="message_time">1 day ago</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents received">
+              <div class="user_pic"><img src="assets/images/avatar-rizky-hasanuddin.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Rizky Hasanuddin <span class="message_info">sent you a private message</span></p> 
+                <p class="message_time">5 days ago</p>
+
+              </div>
+            </div>
+            <div class="message_text read_message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iusto neque
+              aliquam corporis quos similique voluptas placeat omnis distinctio fugit?</div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-kimberly-smith.webp" alt="user1.webp"></div>
+              <div class="user_details d-flex">
+                <div class="user_innner">
+                  <div class="user_name">Kimberly-Smith <span class="message_info">commented on your picture</span></div> 
+                  <div 
+                  class="message_about commented"><img src="assets/images/image-chess.webp" alt=""></div>
+                </div>
+                <p class="message_time">1 week ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-nathan-peterson.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Nathan Peterson <span class="message_info">reacted  to your recent post</span>  <span
+                  class="message_about">5 end-game strategies to increase your win rate</span></p> 
+                <p class="message_time">2 weeks ago</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="user_messages">
+            <div class="user_contents">
+              <div class="user_pic"><img src="assets/images/avatar-anna-kim.webp" alt="user1.webp"></div>
+              <div class="user_details">
+                <p class="user_name">Anna Kim <span class="message_info">left the group</span> <span
+                  class="message_about club-color">Chess Club</span></p> 
+                <p class="message_time">5 days ago</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="app.js"></script>
+</body>
+
+</html>
